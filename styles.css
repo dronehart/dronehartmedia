@@ -49,8 +49,6 @@ nav ul li a {
 
 section {
     padding: 40px 20px;
-}
-section {
     display: flex;
     flex-direction: column;
     align-items: center;
