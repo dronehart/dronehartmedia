@@ -19,6 +19,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     background: rgba(0, 0, 0, 0.85);
+    color: #111;
     padding: 15px 5%;
     position: fixed;
     width: 100%;
