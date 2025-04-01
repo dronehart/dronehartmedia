@@ -95,7 +95,7 @@ nav ul li a:hover {
     color: white;
     text-align: center;
     padding: 80px 20px;
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+    /* Removed text-shadow */
 }
 
 .hero h1 {
@@ -109,7 +109,7 @@ nav ul li a:hover {
 .hero p {
     font-size: 1.5rem;
     font-weight: 300;
-    color: #cccccc; /* Lighter but more readable text */
+    color: #d3d3d3; /* Light grey color */
 }
 
 
