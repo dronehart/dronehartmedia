@@ -298,24 +298,7 @@ nav a {
 nav a:hover {
     color: #f88f00; /* Orange hover effect */
 }
-/* Navigation Bar */
-nav {
-    background-color: #ffffff; /* White background */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
 
-nav .logo {
-    color: #000; /* Black text for logo */
-    font-weight: bold;
-}
-
-nav a {
-    color: #000; /* Black text for navigation links */
-}
-
-nav a:hover {
-    color: #f88f00; /* Orange hover effect */
-}
 /* Portfolio Section */
 #portfolio {
     background: #fff; /* White background */
@@ -385,3 +368,15 @@ nav a:hover {
     color: #f88f00; /* Orange hover effect */
 }
 
+/* Hamburger Icon */
+.nav-toggle {
+    color: #000; /* Black color for the hamburger icon */
+    font-size: 30px; /* Size of the icon */
+    background: none; /* Remove any background */
+    border: none; /* Remove border */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.nav-toggle:focus {
+    outline: none; /* Remove outline when focused */
+}
