@@ -15,7 +15,7 @@
         <button class="nav-toggle" aria-label="Toggle menu">☰</button>
         <ul class="nav-menu">
             <li><a href="#home">Home</a></li>
-            <li><a href="#services">Services</a></li>  <!-- Added Services Link -->
+            <li><a href="#services">Services</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
@@ -46,29 +46,41 @@
         </div>
     </section>
 
-   <!-- Portfolio Section -->
-<section id="portfolio">
-    <h2>Portfolio</h2>
-    <div class="video-container">
-        <div class="video-box">
-            <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID_1" frameborder="0" allowfullscreen></iframe>
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="video-container">
+            <div class="video-box">
+                <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID_1" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="video-box">
+                <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID_2" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="video-box">
+                <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID_3" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="video-box">
+                <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID_4" frameborder="0" allowfullscreen></iframe>
+            </div>
         </div>
-        <div class="video-box">
-            <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID_2" frameborder="0" allowfullscreen></iframe>
-        </div>
-        <div class="video-box">
-            <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID_3" frameborder="0" allowfullscreen></iframe>
-        </div>
-        <div class="video-box">
-            <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID_4" frameborder="0" allowfullscreen></iframe>
-        </div>
-    </div>
-</section>
+    </section>
 
     <!-- Contact Section -->
     <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Email: contact@dronehartmedia.com</p>
+        <h2>Contact & Book Us</h2>
+        <p>Have a question or ready to book your aerial cinematography session? Fill out the form below!</p>
+        <form action="https://formspree.io/f/your-form-id" method="POST">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Let us know how we can assist you..." required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
     </section>
 
 </body>
