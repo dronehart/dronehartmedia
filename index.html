@@ -7,10 +7,12 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Navigation -->
+
     <header>
         <nav>
-            <ul>
+            <div class="logo">DroneHartMedia</div>
+            <button class="nav-toggle" onclick="toggleMenu()">☰</button>
+            <ul id="nav-menu">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#services">Services</a></li>
@@ -19,54 +21,44 @@
         </nav>
     </header>
 
-    <!-- Home Section -->
     <section id="home" class="hero">
         <h1>Welcome to DroneHartMedia</h1>
-        <p>Capturing breathtaking views from above.</p>
+        <p>High-quality aerial cinematography to capture stunning visuals.</p>
     </section>
 
-    <!-- Portfolio Section -->
     <section id="portfolio">
         <h2>Portfolio</h2>
         <div class="gallery">
             <div class="item">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" allowfullscreen></iframe>
             </div>
             <div class="item">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
-            </div>
-            <div class="item">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" allowfullscreen></iframe>
             </div>
         </div>
     </section>
 
-    <!-- Services Section -->
     <section id="services">
-        <h2>Our Services</h2>
-        <p>We offer high-quality drone cinematography for a variety of events and projects, including real estate, weddings, and more.</p>
+        <h2>Services</h2>
+        <p>Offering professional drone photography and videography for all occasions.</p>
     </section>
 
-    <!-- Contact Section -->
     <section id="contact">
-        <h2>Contact Us</h2>
-        <form action="submit_form.php" method="POST">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-            
+        <h2>Contact</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
             <button type="submit">Send</button>
         </form>
     </section>
 
-    <!-- Footer -->
     <footer>
         <p>&copy; 2025 DroneHartMedia. All Rights Reserved.</p>
     </footer>
+
+    <script src="function toggleMenu() {
+    document.getElementById("nav-menu").classList.toggle("active");
+}"></script>
 </body>
 </html>
