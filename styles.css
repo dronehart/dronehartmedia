@@ -233,3 +233,50 @@ form button {
 form button:hover {
     background-color: #f88f00;
 }
+/* General Background Styling */
+body {
+    background-color: #f5f5f5; /* Light grey for a modern look */
+    color: #111; /* Dark text for readability */
+}
+
+/* Section Styling */
+section {
+    background: #fff; /* White background for each section */
+    padding: 60px 20px;
+    margin: 20px auto;
+    border-radius: 12px; /* Rounded corners for a sleek feel */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    max-width: 90%;
+}
+
+/* Navigation */
+nav {
+    background-color: #ffffff; /* White navbar */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+nav .logo {
+    color: #111;
+}
+
+nav a {
+    color: #333; /* Darker links for contrast */
+}
+
+/* Hero Section */
+#home {
+    text-align: center;
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0); /* Subtle gradient */
+    padding: 100px 20px;
+}
+
+#home h1 {
+    color: #222; /* Dark grey */
+}
+
+/* Contact Section */
+#contact {
+    background: #fff; /* White background */
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
