@@ -280,3 +280,72 @@ nav a {
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+/* Navigation Bar */
+nav {
+    background-color: #ffffff; /* White background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav .logo {
+    color: #111; /* Dark text for contrast */
+    font-weight: bold;
+}
+
+nav a {
+    color: #333; /* Darker navigation links */
+}
+
+nav a:hover {
+    color: #f88f00; /* Orange hover effect */
+}
+
+/* Portfolio Section */
+#portfolio {
+    background: #fff; /* White background */
+    padding: 60px 20px;
+    text-align: center;
+    color: #222; /* Dark grey text */
+}
+
+#portfolio h2 {
+    color: #111; /* Darker heading */
+}
+
+.video-box {
+    background: #f8f8f8; /* Light grey background for video boxes */
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Section */
+#contact {
+    background: #fff; /* White background */
+    color: #222; /* Dark grey text for readability */
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#contact h2 {
+    color: #111; /* Dark heading */
+}
+
+#contact p {
+    color: #444; /* Slightly lighter text for better contrast */
+}
+
+form label {
+    color: #111; /* Dark labels */
+}
+
+form input,
+form textarea {
+    border: 2px solid #ccc; /* Lighter borders */
+    background-color: #fff;
+    color: #222; /* Dark text */
+}
+
+form button {
+    background-color: #f88f00; /* Bright button */
+    color: #fff;
+}
