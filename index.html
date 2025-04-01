@@ -5,40 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DroneHartMedia</title>
     <link rel="stylesheet" href="styles.css">
-    <script defer src="script.js"></script>
 </head>
 <body>
-
     <!-- Navigation -->
-    <nav>
-        <div class="logo">DroneHartMedia</div>
-        <button class="nav-toggle" aria-label="Toggle menu">☰</button>
-        <ul class="nav-menu">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <!-- Hero Section -->
+    <!-- Home Section -->
     <section id="home">
-        <h1>Welcome to DroneHartMedia</h1>
-        <p>Capturing stunning aerial cinematography</p>
+        <div class="hero">
+            <h1>Welcome to DroneHartMedia</h1>
+            <p>Capturing breathtaking views from above.</p>
+        </div>
     </section>
 
     <!-- Portfolio Section -->
     <section id="portfolio">
         <h2>Portfolio</h2>
-        <div class="video-container">
-            <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+        <div class="gallery">
+            <div class="item"><video src="video1.mp4" controls></video></div>
+            <div class="item"><video src="video2.mp4" controls></video></div>
+            <div class="item"><video src="video3.mp4" controls></video></div>
         </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>We offer high-quality drone cinematography for a variety of events and projects, including real estate, weddings, and more.</p>
     </section>
 
     <!-- Contact Section -->
     <section id="contact">
         <h2>Contact Us</h2>
-        <p>Email: contact@dronehartmedia.com</p>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
     </section>
 
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 DroneHartMedia. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
