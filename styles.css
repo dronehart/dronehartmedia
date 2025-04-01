@@ -103,15 +103,14 @@ nav ul li a:hover {
     font-weight: bold;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #ff9900; /* Darkened orange color */
+    color: #e0e0e0; /* Lighter grey color for heading */
 }
 
 .hero p {
     font-size: 1.5rem;
     font-weight: 300;
-    color: #d3d3d3; /* Light grey color */
+    color: #e0e0e0; /* Lighter grey color for paragraph */
 }
-
 
 /* Portfolio Grid */
 .gallery {
