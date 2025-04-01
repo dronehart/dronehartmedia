@@ -366,4 +366,22 @@ form button {
     background-color: #f88f00; /* Bright button */
     color: #fff;
 }
+/* Navigation Bar */
+nav {
+    background-color: #ffffff; /* White background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav .logo {
+    color: #000; /* Black text for logo */
+    font-weight: bold;
+}
+
+nav a {
+    color: #000; /* Black text for navigation links */
+}
+
+nav a:hover {
+    color: #f88f00; /* Orange hover effect */
+}
 
