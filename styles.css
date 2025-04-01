@@ -18,12 +18,12 @@ body {
 }
 
 .hero h1 {
-    font-size: 4rem; /* Adjusted to make it larger */
-    font-weight: 300; /* Lighter weight for a more modern look */
+    font-size: 3.5rem; /* Adjusted size for better impact */
+    font-weight: 300; /* Lighter weight for modern look */
     letter-spacing: -0.5px; /* Tighter letter spacing for sleekness */
-    text-transform: none; /* Removed uppercase to make it cleaner */
-    color: #f0f0f0; /* Lighter grey color for heading */
-    line-height: 1.2; /* Adjusted line height for better vertical alignment */
+    text-transform: none; /* Normal case for cleaner appearance */
+    color: #f0f0f0; /* Light grey color for heading */
+    line-height: 1.2; /* Clean vertical alignment */
     margin: 0;
 }
 
@@ -103,7 +103,7 @@ footer {
 /* Mobile Optimization */
 @media (max-width: 768px) {
     .hero h1 {
-        font-size: 2.5rem;
+        font-size: 2.5rem; /* Adjusted font size for mobile */
     }
 
     .hero p {
