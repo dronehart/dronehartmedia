@@ -17,11 +17,21 @@ nav {
     padding: 15px 20px;
 }
 
-nav .logo {
-    color: #000; /* Black text */
-    font-weight: bold;
-    font-size: 24px;
+/* Logo Styling */
+.logo img {
+    height: 50px; /* Adjust size as needed */
+    width: auto; /* Keeps aspect ratio */
+    display: block;
 }
+
+/* Ensure spacing in navigation */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
 
 nav a {
     color: #000; /* Black text */
