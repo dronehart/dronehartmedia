@@ -58,35 +58,33 @@ nav a {
 
 /* Mobile Navigation */
 .nav-links {
-    display: flex;
-    gap: 15px;
+    display: none; /* Hidden by default */
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
-@media (max-width: 768px) {
-    .nav-links {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 60px;
-        left: 0;
-        width: 100%;
-        background: #fff;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        text-align: center;
-    }
+.nav-links a {
+    padding: 15px;
+    display: block;
+}
 
-    .nav-links a {
-        padding: 15px;
-        display: block;
-    }
+.nav-active {
+    display: flex; /* Shows the menu */
+}
 
-    .nav-toggle {
-        display: block; /* Show hamburger menu */
-    }
-
-    .nav-active {
-        display: flex;
-    }
+.nav-toggle {
+    display: block; /* Show the hamburger menu on mobile */
+    color: #000;
+    font-size: 30px;
+    background: none;
+    border: none;
+    cursor: pointer;
 }
 
 /* Section Styling */
