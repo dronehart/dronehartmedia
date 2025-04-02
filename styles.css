@@ -202,11 +202,43 @@ section {
     height: 200px; /* Adjust height as needed */
     border-radius: 10px;
 }
+/* Portfolio YouTube Links */
+.portfolio a {
+    display: block;
+    width: 48%; /* Adjust width to make the boxes bigger */
+    height: 250px; /* Increase height to make the boxes taller */
+    margin: 1%; /* Add some space between the boxes */
+    background-color: #f0f0f0; /* Light background color for the box */
+    border-radius: 15px; /* Rounded corners */
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Make sure the iframe fits inside the box */
+.portfolio a iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* Hover effect on YouTube link boxes */
+.portfolio a:hover {
+    transform: scale(1.05); /* Slightly increase size on hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
 
 /* Mobile Optimization */
 @media (max-width: 768px) {
     .video-container {
         grid-template-columns: 1fr; /* Stacks videos in 1 column on small screens */
+    }
+}
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .portfolio a {
+        width: 100%; /* Make the boxes take full width on smaller screens */
+        margin: 10px 0; /* Add space between boxes on small screens */
     }
 }
 
