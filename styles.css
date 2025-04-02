@@ -382,3 +382,9 @@ form button:hover {
         padding: 40px 10px;
     }
 }
+footer {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
