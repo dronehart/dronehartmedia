@@ -85,15 +85,9 @@
         </form>
     </section>
 <script>
-    document.querySelector('.nav-toggle').addEventListener('click', function() {
-        document.querySelector('.nav-links').classList.toggle('nav-active');
-    });
-
-    document.querySelectorAll('.nav-links a').forEach(link => {
-        link.addEventListener('click', function() {
-            document.querySelector('.nav-links').classList.remove('nav-active');
+        document.querySelector('.nav-toggle').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('nav-active');
         });
-    });
-</script>
+    </script>
 </body>
 </html>
