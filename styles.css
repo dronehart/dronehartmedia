@@ -382,9 +382,39 @@ form button:hover {
         padding: 40px 10px;
     }
 }
+/* Footer Styles */
 footer {
-    background-color: #000;
-    color: white;
+    background-color: #333;
+    color: #fff;
     text-align: center;
-    padding: 10px 0;
+    padding: 20px 0;
+    margin-top: 40px;
 }
+
+/* Social Media Links */
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.social-media a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #555;
+    color: #fff;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 20px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.social-media a:hover {
+    background-color: #777;
+    transform: scale(1.1);
+}
+
