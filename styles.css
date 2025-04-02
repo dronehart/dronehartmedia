@@ -243,7 +243,7 @@ section {
 /* Portfolio YouTube Links */
 .portfolio a {
     display: block;
-    width: 48%; /* Adjust width to make the boxes bigger */
+    width: 100%; /* Adjust width to make the boxes bigger */
     height: 250px; /* Increase height to make the boxes taller */
     margin: 1%; /* Add some space between the boxes */
     background-color: #f0f0f0; /* Light background color for the box */
