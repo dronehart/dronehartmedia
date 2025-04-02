@@ -86,6 +86,25 @@ nav a {
     border: none;
     cursor: pointer;
 }
+/* Hamburger Icon Style */
+.nav-toggle {
+    display: block; /* Show the hamburger menu on mobile */
+    color: #000; /* Default color */
+    font-size: 30px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Smooth transition */
+    padding: 10px; /* Add padding around the icon */
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Hover Effect for Hamburger Icon */
+.nav-toggle:hover {
+    background-color: #333; /* Dark background */
+    color: #fff; /* White color for the icon on hover */
+    border-radius: 15px; /* Make the box more rounded */
+}
 
 /* Section Styling */
 section {
