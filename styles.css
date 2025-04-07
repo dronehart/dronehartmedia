@@ -116,32 +116,6 @@ section {
     max-width: 90%;
     text-align: center;
 }
-.hamburger {
-  font-size: 24px;
-  cursor: pointer;
-  z-index: 999;
-  position: relative;
-  display: flex;
-  align-items: center;
-}
-
-.hamburger .close-icon {
-  display: none;
-  color: #000; /* Color of the X icon */
-}
-
-.hamburger .open-icon {
-  display: inline;
-  color: #000; /* Color of the hamburger icon */
-}
-
-.hamburger.active .close-icon {
-  display: inline;
-}
-
-.hamburger.active .open-icon {
-  display: none;
-}
 
 /* Hero Section */
 #home {
